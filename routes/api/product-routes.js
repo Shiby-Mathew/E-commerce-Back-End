@@ -3,7 +3,7 @@ const { Product, Category, Tag, ProductTag } = require("../../models");
 
 // The `/api/products` endpoint
 
-/********check tag [] is empty ****** */
+
 // get all products
 router.get("/", async (req, res) => {
   // find all products
@@ -18,7 +18,7 @@ router.get("/", async (req, res) => {
     res.status(500).json(err);
   }
 });
-/********check tag [] is empty ****** */
+
 // get one product
 router.get("/:id", async (req, res) => {
   // find a single product by its `id`
