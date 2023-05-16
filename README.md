@@ -3,8 +3,8 @@
 ## Description
 
 ```
-This project is for an E-commerce backend, working with Express.js API and Sequelize to interact with
- MySQL database. Application allows users to view, add, edit and delete details from
+This project is for an E-commerce backend, working with Express.js API and Sequelize to interact
+with MySQL database. Application allows users to view, add, edit and delete details from
  the database through running API routes in Insomnia, for categories, product and tags.
 
 ```
