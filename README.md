@@ -3,9 +3,9 @@
 ## Description
 
 ```
-This project is an E-commerce backend working with Express.js API and Sequelize to interact with MySQL database.
-Application allows users to view, view by id's, add, edit and detele values from the database through running API routes in Insomnia,
-for categories,product and tags.
+This project is for an E-commerce backend, working with Express.js API and Sequelize to interact with
+ MySQL database. Application allows users to view, add, edit and delete details from
+ the database through running API routes in Insomnia, for categories, product and tags.
 
 ```
 
@@ -35,7 +35,7 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ## Mock-Up
 
-The following video shows the application's routes for categories,products, and tags being tested in Insomnia:
+The following video shows application's routes for categories, products and tags being tested in Insomnia:
 
 [![Walk through video](https://drive.google.com/file/d/1SR6vo_5f9NMagnOGYTEnXzUvZMLl08Hk/view.png)](https://drive.google.com/file/d/1SR6vo_5f9NMagnOGYTEnXzUvZMLl08Hk/view)
 
@@ -51,11 +51,10 @@ Sequelize
 
 ## Usage
 
-- This application is used to manage employee/manager details
-- All the information is stored in a database
-- This is a command-line application, with multiple prompts for user inputs.
-- According to user's input, user can add, view, delete and update
-  employee/manager details from database
+- This application is an e-commerce platform, providing a suite of services to businesses of all sizes
+- Working with Express.js API to use Sequelize to interact with a MySQL database.
+- This app performs create, read, update, and delete operations using Sequelize models.
+- This application is tested in Insomina
 
 ## Resources
 

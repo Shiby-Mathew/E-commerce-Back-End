@@ -5,7 +5,6 @@ const { Category, Product } = require("../../models");
 
 router.get("/", async (req, res) => {
   // find all categories
-  // be sure to include its associated Products
 
   try {
     const categoryData = await Category.findAll({
@@ -19,7 +18,6 @@ router.get("/", async (req, res) => {
 
 router.get("/:id", async (req, res) => {
   // find one category by its `id` value
-  // be sure to include its associated Products
 
   try {
     const categoryData = await Category.findByPk(req.params.id, {
@@ -52,11 +50,9 @@ router.put("/:id", async (req, res) => {
   try {
     const updatedCategory = await Category.update(
       {
-        // All the fields you can update and the data attached to the request body.
         category_name: req.body.category_name,
       },
       {
-        // Gets a book based on the book_id given in the request parameters
         where: {
           id: req.params.id,
         },
